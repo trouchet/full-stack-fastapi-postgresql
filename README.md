@@ -23,6 +23,11 @@ This is a comprehensively updated fork of [Sebastián Ramírez's](https://github
   
 ## Screenshots
 
+<details>
+  <summary>
+  Click to unfold usage
+  </summary>
+
 ### App landing page
 
 ![Landing page](img/landing.png)
@@ -43,7 +48,14 @@ This is a comprehensively updated fork of [Sebastián Ramírez's](https://github
 
 ![Enabling TOTP](img/totp.png)
 
+</details>
+
 ## Key features
+
+<details>
+  <summary>
+  Click to unfold usage
+  </summary>
 
 This FastAPI, PostgreSQL, Neo4j & Nuxt 3 repo will generate a complete web application stack as a foundation for your project development.
 
@@ -73,7 +85,14 @@ This FastAPI, PostgreSQL, Neo4j & Nuxt 3 repo will generate a complete web appli
 - Traefik integration, including Let's Encrypt **HTTPS** certificates automatic generation.
 - GitLab **CI** (continuous integration), including frontend and backend testing.
 
+</details>
+
 ## How to use it
+
+<details>
+  <summary>
+  Click to unfold usage
+  </summary>
 
 - [Getting started](./docs/getting-started.md)
 - [Development and installation](./docs/development-guide.md)
@@ -81,7 +100,14 @@ This FastAPI, PostgreSQL, Neo4j & Nuxt 3 repo will generate a complete web appli
 - [Authentication and magic tokens](./docs/authentication-guide.md)
 - [Websockets for interactive communication](./docs/websocket-guide.md)
 
+</details>
+
 ## More details
+
+<details>
+  <summary>
+  Click to unfold usage
+  </summary>
 
 After using this generator, your new project (the directory created) will contain an extensive `README.md` with instructions for development, deployment, etc. You can pre-read [the project `README.md` template here too](./{{cookiecutter.project_slug}}/README.md).
 
@@ -91,7 +117,14 @@ To align with [Inboard](https://inboard.bws.bio/), Poetry has been deprecated in
 
 You will also find an initial implementation of internationalisation using [@nuxt/i18n](https://nuxt.com/modules/i18n). This is - at this time - a release candidate, so please do update and check their documentation for any changes. The [Vite PWA plugin](https://vite-pwa-org.netlify.app/frameworks/nuxt.html) is also included, along with a Node CLI for generating all necessary app icons. You will see links and notes to this in the [nuxt.config.ts](./{{cookiecutter.project_slug}}/frontend/nuxt.config.ts) file.
 
+</details>
+
 ## Help needed
+
+<details>
+  <summary>
+  Click to unfold usage
+  </summary>
 
 The tests are broken and it would be great if someone could take that on. Other potential roadmap items:
 
@@ -99,7 +132,14 @@ The tests are broken and it would be great if someone could take that on. Other 
 - Internationalisation: [nuxt/i18n](https://v8.i18n.nuxtjs.org/) is added, but the sample pages are not all translated.
 - Code review and optimisation: both the front- and backend stacks have seen some big generational changes, so would be good to have more eyes on the updates to this stack.
 
+</details>
+
 ## Release Notes
+
+<details>
+  <summary>
+  Click to unfold usage
+  </summary>
 
 See notes and [releases](https://github.com/whythawk/full-stack-fastapi-postgresql/releases). 
 
@@ -139,6 +179,8 @@ Fixing [#39](https://github.com/whythawk/full-stack-fastapi-postgresql/issues/39
 - Docs: Reorganised documentation [#21](https://github.com/whythawk/full-stack-fastapi-postgresql/pull/21) by @turukawa
 
 [Historic changes from original](https://github.com/tiangolo/full-stack-fastapi-postgresql#release-notes)
+
+</details>
 
 ## License
 
